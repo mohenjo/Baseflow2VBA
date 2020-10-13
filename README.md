@@ -1,6 +1,7 @@
 # Code Transformation for base flow separation and recession analysis techniques
 
-*FORTRAN to VBA*
+1. *Code conversion (FORTRAN to VBA)*
+1. *VBA Standalone version with improvements*
 
 
 
