@@ -1,8 +1,8 @@
 # 지하댐 설치 효과 정량적 평가 프로그램
 
-1. *기저 유량 분리 프로그램 (baseflow[^1)][^2)])의 EXCEL VBA 구현*
+1. *기저 유량 분리 프로그램 (baseflow)의 EXCEL VBA 구현*
 
-2. 지하댐 설치 효과 정량적 평가 프로그램[^3)] (한국농어촌공사 농어촌연구원) (EXCEL VBA)
+2. 지하댐 설치 효과 정량적 평가 프로그램] (한국농어촌공사 농어촌연구원) (EXCEL VBA)
 
    
 
@@ -46,7 +46,7 @@ this program estimates groundwater contributions from USGS streamflow records.  
 - `SDamSlopeInP` As Double: (%) 지하댐 하상경사
 - `SDamSlopeInD` As Double: (°) 지하댐 하상경사
 - `Precp()` As Double: 강수량(mm)
-- `isQNA()` As Boolean: 일계열 관측 유출량이 NA인지 저장(NA일 경우 유출율 계산에서 제외). 기본값(=false=NA아님). 
+- `isQNA()` As Boolean: 일계열 관측 유출량이 NA 자료인지의 여부. 기본값(=false= not NA).
 - `SDamTEffLength` As Double: (km) 지하댐 영향거리(이론)
 - `SDamREffLength` As Double: (km) 지하댐 영향거리(실제)
 - `SDAMEffLengthRatio` As Double: 영향거리비 (경험치로 적용함)
@@ -55,6 +55,14 @@ this program estimates groundwater contributions from USGS streamflow records.  
 - `SDAMEffVolume` As Double: (m^3) 영향체적
 - `SDAMEffVolumeDelta` As Double: (cu.m) 영향체적변동
 - `SDAMGWLRaiseRatio` As Double: (%) 지하수위 상승률
+
+### 참조
+
++ Arnold, J.G., P.M. Allen, R. Muttiah, and G. Bernhardt. 1995. Automated base flow separation and recession analysis techniques. Ground Water 33(6): 1010-1018.
+
++ Arnold, J.G. and P.M. Allen. 1999. Automated methods for estimating baseflow and ground water recharge from streamflow records. Journal of the American Water Resources Association 35(2): 411-424.
+
++ (주)에스디엠이앤씨, 2020, 지하댐설치효과 정량적 프로그램 개발(한국농어촌공사 농어촌연구원)
 
 
 
@@ -83,9 +91,3 @@ this program estimates groundwater contributions from USGS streamflow records.  
 ## License
 
 ![CCBYNCND](https://i.creativecommons.org/l/by-nc-nd/3.0/88x31.png) 이 저작물은 <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/3.0/deed.ko">크리에이티브 커먼즈 저작자표시-비영리-변경금지 3.0 Unported 라이선스</a>에 따라 이용할 수 있습니다.
-
-
-
-[^1)]: Arnold, J.G., P.M. Allen, R. Muttiah, and G. Bernhardt. 1995. Automated base flow separation and recession analysis techniques. Ground Water 33(6): 1010-1018.
-[^2)]: Arnold, J.G. and P.M. Allen. 1999. Automated methods for estimating baseflow and ground water recharge from streamflow records. Journal of the American Water Resources Association 35(2): 411-424.
-[^3)]: (주)에스디엠이앤씨, 2020, 지하댐설치효과 정량적 프로그램 개발(한국농어촌공사 농어촌연구원)
