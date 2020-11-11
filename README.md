@@ -1,8 +1,8 @@
 # 지하댐 설치 효과 정량적 평가 프로그램
 
-1. *기저 유량 분리 프로그램 (baseflow)의 EXCEL VBA 구현*
+1. 기저 유량 분리 프로그램(baseflow)의 EXCEL VBA 구현
 
-2. 지하댐 설치 효과 정량적 평가 프로그램] (한국농어촌공사 농어촌연구원) (EXCEL VBA)
+2. 지하댐 설치 효과 정량적 평가 프로그램 (한국농어촌공사 농어촌연구원) (EXCEL VBA)
 
    
 
@@ -70,7 +70,7 @@ this program estimates groundwater contributions from USGS streamflow records.  
 
 ### Version
 
-- Last updated Oct. 2020
+- Last updated Nov. 2020
 
 ### Dev Tools
 
